@@ -4,15 +4,27 @@
 	{
 		ItemName : 
 		{
-			# ??? : ???
+			# Accessories（如你所见，这是一行注释）
+
+			ExampleWings : "示例翅膀"
+			PurpleStone : "紫色闪光石"
 		}
 		ItemTooltip : 
 		{
-			# ??? : ???
+			# Accessories
+
+			ExampleWings : "这是示例翅膀的描述\n哦天哪竟然可以换行，还可以用“\\”来转义\n[c/0099ff:竟然还能上色和显示按键<right>]"
+			PurpleStone : 
+				'''
+				闪光石，只不过是紫色品质的
+				这换行方式也太酷了（并没有）
+				这样子插入值：{$Mods.TemplateMod2.CustomText.PurpleStoneExtraTooltip}
+				这样子显示原版物品：[i:DontHurtCrittersBook]
+				'''
 		}
 		CustomText : 
 		{
-			# ??? : ???
+			PurpleStoneExtraTooltip : "哎呀你干嘛——"
 		}
 	}
 }

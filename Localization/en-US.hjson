@@ -4,15 +4,27 @@
 	{
 		ItemName : 
 		{
-			# ??? : ???
+			# Accessories（如你所见，这是一行注释）
+
+			ExampleWings : "Example Wings"
+			PurpleStone : "Purple Shiny Stone"
 		}
 		ItemTooltip : 
 		{
-			# ??? : ???
+			# Accessories
+
+			ExampleWings : "This is the tooltip of item ExampleWings\nOMG you can wrap and use \"\\\" to escape characters\n[c/0099ff:You can even color the texts and display keys<right>]"
+			PurpleStone : 
+				'''
+				A Shiny Stone, but purple in quality
+				What a cool method to warp(not at all)
+				Insert values: {$Mods.TemplateMod2.CustomText.PurpleStoneExtraTooltip}
+				Display vanilla items: [i:DontHurtCrittersBook]
+				'''
 		}
 		CustomText : 
 		{
-			# ??? : ???
+			PurpleStoneExtraTooltip : "哎呀你干嘛——"
 		}
 	}
 }

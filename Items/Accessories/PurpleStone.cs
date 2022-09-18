@@ -10,11 +10,12 @@ using Terraria.ModLoader;
 namespace TemplateMod2.Items.Accessories {
     public class PurpleStone : ModItem {
         public override void SetStaticDefaults() {
-            DisplayName.SetDefault("");
-            DisplayName.AddTranslation(GameCulture.Chinese, "紫色闪光石");
-            Tooltip.SetDefault("");
-            Tooltip.AddTranslation(GameCulture.Chinese, "闪光石，只不过是紫色品质的");
-            base.SetStaticDefaults();
+            //这种写法也不是不行，就是不好做本地化
+            //DisplayName.SetDefault("");
+            //DisplayName.AddTranslation(GameCulture.Chinese, "紫色闪光石");
+            //Tooltip.SetDefault("");
+            //Tooltip.AddTranslation(GameCulture.Chinese, "闪光石，只不过是紫色品质的");
+            //base.SetStaticDefaults();
         }
 
         public override void SetDefaults() {
