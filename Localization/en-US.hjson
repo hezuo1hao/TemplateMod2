@@ -1,0 +1,18 @@
+﻿Mods : 
+{
+	TemplateMod2 : 
+	{
+		ItemName : 
+		{
+			# ??? : ???
+		}
+		ItemTooltip : 
+		{
+			# ??? : ???
+		}
+		CustomText : 
+		{
+			# ??? : ???
+		}
+	}
+}
